@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAndComparisonOperators"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAndComparisonOperatorAssignment", "MathAndComparisonOperatorAssignment\MathAndComparisonOperatorAssignment.csproj", "{9E1A1106-68F8-4CB4-BFB6-AA3D15A68239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanLogicAssignment", "BooleanLogicAssignment\BooleanLogicAssignment.csproj", "{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9E1A1106-68F8-4CB4-BFB6-AA3D15A68239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1A1106-68F8-4CB4-BFB6-AA3D15A68239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1A1106-68F8-4CB4-BFB6-AA3D15A68239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
