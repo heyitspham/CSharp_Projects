@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step280_MethodAssignment", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step281_MethodClassAssignment", "Step281_MethodClassAssignment\Step281_MethodClassAssignment.csproj", "{382B4E86-620B-4DD3-A465-057FBCAA67F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step284_ClassAssignment", "Step284_ClassAssignment\Step284_ClassAssignment.csproj", "{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
