@@ -18,21 +18,23 @@ namespace Step280_MethodAssignment
             string input02AsString = Console.ReadLine();
 
             // 2. In the Main() method of the console app, instantiate the class.
+            Math math = new Math();
+            
             // 4. Call the method in the class, passing in the one or two numbers entered.
             if (input02AsString == "")
             {
-                int output = Math.MathOp(input01);
+                int output = math.MathOp(input01);
                 Console.WriteLine($"The 1st number you provided was '{input01}'. The 2nd number was not provided so the default was 10. The product of those two numbers is {output}.\n");
             }
             else if (input02AsString == " ")
             {
-                int output = Math.MathOp(input01);
+                int output = math.MathOp(input01);
                 Console.WriteLine($"The 1st number you provided was '{input01}'. The 2nd number was not provided so the default was 10. The product of those two numbers is {output}.\n");
             }
             else
             {
                 int input02 = Convert.ToInt16(input02AsString);
-                int output = Math.MathOp(input01, input02);
+                int output = math.MathOp(input01, input02);
                 Console.WriteLine($"The numbers you provided were '{input01}' and '{input02}'. The product of those two numbers is {output}.\n");
             }
 
