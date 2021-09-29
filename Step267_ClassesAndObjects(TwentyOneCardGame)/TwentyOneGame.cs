@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Step267_ClassesAndObjects_TwentyOneCardGame_
 {
-    public class TwentyOneGame : Game
+    public class TwentyOneGame : Game, IWalkAway
     {
         public override void Play()
         {
@@ -16,6 +16,10 @@ namespace Step267_ClassesAndObjects_TwentyOneCardGame_
         {
             Console.WriteLine("21 Players:");
             base.ListPlayers();
+        }
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }
