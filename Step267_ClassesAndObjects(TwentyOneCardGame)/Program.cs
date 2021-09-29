@@ -10,6 +10,11 @@ namespace Step267_ClassesAndObjects_TwentyOneCardGame_
     {
         static void Main(string[] args)
         {
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "J", "B", "K" };
+            game.ListPlayers();
+            Console.ReadLine();
+
             Deck deck = new Deck();
             deck.Shuffle(times: 3);
 
