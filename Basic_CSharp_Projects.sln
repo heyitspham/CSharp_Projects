@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step267_ClassesAndObjects(TwentyOneCardGame)", "Step267_ClassesAndObjects(TwentyOneCardGame)\Step267_ClassesAndObjects(TwentyOneCardGame).csproj", "{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step306_PolymorphismAssignment", "Step306_PolymorphismAssignment\Step306_PolymorphismAssignment.csproj", "{2608807F-68A6-4893-9B85-D67E2F9CF0EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step313_OperatorsAssignment", "Step313_OperatorsAssignment\Step313_OperatorsAssignment.csproj", "{20608D61-E9CF-4FCA-8F73-1FB649A1055D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step292_MethodsAndObjectsAssignment", "Step292_MethodsAndObjectsAssignment\Step292_MethodsAndObjectsAssignment.csproj", "{90234F20-2A40-4225-8596-0388A2E368C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2608807F-68A6-4893-9B85-D67E2F9CF0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2608807F-68A6-4893-9B85-D67E2F9CF0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2608807F-68A6-4893-9B85-D67E2F9CF0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2608807F-68A6-4893-9B85-D67E2F9CF0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20608D61-E9CF-4FCA-8F73-1FB649A1055D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20608D61-E9CF-4FCA-8F73-1FB649A1055D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20608D61-E9CF-4FCA-8F73-1FB649A1055D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20608D61-E9CF-4FCA-8F73-1FB649A1055D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
