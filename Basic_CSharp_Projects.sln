@@ -5,13 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step267_ClassesAndObjects(TwentyOneCardGame)", "Step267_ClassesAndObjects(TwentyOneCardGame)\Step267_ClassesAndObjects(TwentyOneCardGame).csproj", "{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step279_MainMethodAssignment", "Step279_MainMethodAssignment\Step279_MainMethodAssignment.csproj", "{97FEA422-5EA0-4E0E-AE12-CBFE88BC1874}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step280_MethodAssignment", "Step280_MethodAssignment\Step280_MethodAssignment.csproj", "{9597F013-9EFC-4CA3-A2F7-4EF69F1B7944}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step281_MethodClassAssignment", "Step281_MethodClassAssignment\Step281_MethodClassAssignment.csproj", "{382B4E86-620B-4DD3-A465-057FBCAA67F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step284_ClassAssignment", "Step284_ClassAssignment\Step284_ClassAssignment.csproj", "{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step292_MethodsAndObjectsAssignment", "Step292_MethodsAndObjectsAssignment\Step292_MethodsAndObjectsAssignment.csproj", "{90234F20-2A40-4225-8596-0388A2E368C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +17,10 @@ Global
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B01151-FB56-4F42-BEA9-EB11B4DFBAAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97FEA422-5EA0-4E0E-AE12-CBFE88BC1874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97FEA422-5EA0-4E0E-AE12-CBFE88BC1874}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97FEA422-5EA0-4E0E-AE12-CBFE88BC1874}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97FEA422-5EA0-4E0E-AE12-CBFE88BC1874}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9597F013-9EFC-4CA3-A2F7-4EF69F1B7944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9597F013-9EFC-4CA3-A2F7-4EF69F1B7944}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9597F013-9EFC-4CA3-A2F7-4EF69F1B7944}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9597F013-9EFC-4CA3-A2F7-4EF69F1B7944}.Release|Any CPU.Build.0 = Release|Any CPU
-		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{382B4E86-620B-4DD3-A465-057FBCAA67F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AF7F33B-5C9B-4A78-899C-8DAF6215C4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90234F20-2A40-4225-8596-0388A2E368C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
