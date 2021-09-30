@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Step267_ClassesAndObjects_TwentyOneCardGame_
 {
-    public class Card
+    public struct Card
     {   
         public Suit Suit { get; set; }
         public Face Face { get; set; }
