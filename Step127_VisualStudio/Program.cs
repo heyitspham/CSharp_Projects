@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace myConsoleProject.cs
+namespace Step127_VisualStudio
 {
     class Program
     {
