@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MathAndComparisonOperatorAssignment
+namespace Step186_MathAndComparisonOperator
 {
     class Program
     {

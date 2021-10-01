@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step267_ClassesAndObjects(T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step369_DateTime", "Step369_DateTime\Step369_DateTime.csproj", "{6C9D04EE-D039-453A-99DB-B377D52B8B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step199_BooleanLogic", "Step199_BooleanLogic\Step199_BooleanLogic.csproj", "{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{6C9D04EE-D039-453A-99DB-B377D52B8B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9D04EE-D039-453A-99DB-B377D52B8B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9D04EE-D039-453A-99DB-B377D52B8B95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C6EFA0B-18B1-483D-9758-B35FDF7C04F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
