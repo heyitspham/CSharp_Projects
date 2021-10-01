@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DailyReportAssignment
+namespace Step163_DailyReport
 {
     class Program
     {
