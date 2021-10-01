@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Step267_ClassesAndObjects_TwentyOneCardGame_
+namespace Step267_Casino_TwentyOneCardGame
 {
     public class Dealer
     {

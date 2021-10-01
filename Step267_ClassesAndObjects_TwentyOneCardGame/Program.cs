@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Step267_Casino_TwentyOneCardGame;
+using Step267_Casino_TwentyOneCardGame.TwentyOne;
 
-namespace Step267_ClassesAndObjects_TwentyOneCardGame_
+namespace Step267_ClassesAndObjects_TwentyOneCardGame
 {
     class Program
     {

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Step267_Casino_TwentyOneCardGame.Interfaces;
 
-namespace Step267_ClassesAndObjects_TwentyOneCardGame_
+namespace Step267_Casino_TwentyOneCardGame.TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
