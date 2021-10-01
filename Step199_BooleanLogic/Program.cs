@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooleanLogicAssignment
+namespace Step199_BooleanLogic
 {
     class Program
     {
