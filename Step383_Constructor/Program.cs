@@ -10,8 +10,10 @@ namespace Step383_Constructor
     {
         static void Main(string[] args)
         {
+            // 1. Create a const variable.
             const string myName = "Vinh Pham";
 
+            // 2. Create a variable using the keyword “var.”
             var datetime = new DateTime();
             datetime = DateTime.Now;
 
@@ -23,7 +25,3 @@ namespace Step383_Constructor
         }
     }
 }
-
-// 1. Create a const variable.
-// 2. Create a variable using the keyword “var.”
-// 3. Chain two constructors together.

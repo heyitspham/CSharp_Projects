@@ -8,6 +8,7 @@ namespace Step383_Constructor
 {
     public class Class1
     {
+        // 3. Chain two constructors together.
         public Class1(string name) : this(name, DateTime.Now)
         {
         }
