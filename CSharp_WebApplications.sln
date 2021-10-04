@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step442_MVC_tutorial", "Step442_MVC_tutorial\Step442_MVC_tutorial.csproj", "{5F677906-A4D1-43E5-A892-5B522A37499C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step451_TechAcadStudentsMVC", "Step451_TechAcadStudentsMVC\Step451_TechAcadStudentsMVC.csproj", "{31121B04-DBC7-4F77-88CA-7D94848A526D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F677906-A4D1-43E5-A892-5B522A37499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F677906-A4D1-43E5-A892-5B522A37499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F677906-A4D1-43E5-A892-5B522A37499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F677906-A4D1-43E5-A892-5B522A37499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31121B04-DBC7-4F77-88CA-7D94848A526D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31121B04-DBC7-4F77-88CA-7D94848A526D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31121B04-DBC7-4F77-88CA-7D94848A526D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31121B04-DBC7-4F77-88CA-7D94848A526D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
