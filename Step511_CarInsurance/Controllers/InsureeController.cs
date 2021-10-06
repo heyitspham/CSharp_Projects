@@ -124,5 +124,84 @@ namespace Step511_CarInsurance.Controllers
             base.Dispose(disposing);
         }
 
+        public decimal Calculate(DateTime dob, int year, string make, string model, bool duiInfo, int tickets, bool coverageType)
+        {
+            decimal quote = 50;
+            int age = DateTime.Now.Subtract(dob).Days;
+            age = age / 365;
+
+            if (age <= 18)
+            {
+                quote += 100;
+            }
+            if (19 <= age && age <= 25)
+            {
+                quote += 50;
+            }
+            if (25 < age)
+            {
+                quote += 25;
+            }
+            if (year < 2000)
+            {
+                quote += 25;
+            }
+            if (year > 2015)
+            {
+                quote += 25;
+            }
+            if (make == "Porsche")
+            {
+                quote += 25;
+            }
+            if (make == "Porsche" && model == "911 Carrera")
+            {
+                quote += 25;
+            }
+            if (tickets > 0)
+            {
+                quote += (tickets * 10);
+            }
+            if (duiInfo == true)
+            {
+                quote = quote * Convert.ToDecimal(1.25);
+            }
+            if (coverageType == true)
+            {
+                quote = quote * Convert.ToDecimal(1.50);
+            }
+            return quote;
+        }
+
+        [HttpPost]
+        public ActionResult CreateAndCalculate(string firstName, string lastName, string emailAddress, DateTime dateOfBirth, int carYear, string carMake, string carModel, bool dui, int speedingTickets, bool coverageType, decimal quote)
+        {
+            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) || string.IsNullOrEmpty(dateOfBirth.ToString()) || string.IsNullOrEmpty(carYear.ToString()) || string.IsNullOrEmpty(carMake.ToString()) || string.IsNullOrEmpty(carModel.ToString()) || string.IsNullOrEmpty(speedingTickets.ToString()) || string.IsNullOrEmpty(quote.ToString()))
+            {
+                return View("~/Views/Shared/Error.cshtml");
+            }
+            else
+            {
+                using (InsuranceEntities db = new InsuranceEntities())
+                {
+                    var insuree = new Insuree();
+                    insuree.FirstName = firstName;
+                    insuree.LastName = lastName;
+                    insuree.EmailAddress = emailAddress;
+                    insuree.DateOfBirth = dateOfBirth;
+                    insuree.CarYear = carYear;
+                    insuree.CarMake = carMake;
+                    insuree.CarModel = carModel;
+                    insuree.DUI = dui;
+                    insuree.SpeedingTickets = speedingTickets;
+                    insuree.CoverageType = coverageType;
+                    insuree.Quote = Calculate(dateOfBirth, carYear, carMake, carModel, dui, speedingTickets, coverageType);
+
+                    db.Insurees.Add(insuree);
+                    db.SaveChanges();
+                }
+                return RedirectToAction("Index");
+            }
+        }
     }
 }
