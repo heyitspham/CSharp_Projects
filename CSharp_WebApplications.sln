@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step463_MvcSampleApplicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step511_CarInsurance", "Step511_CarInsurance\Step511_CarInsurance.csproj", "{F32552EE-2322-428C-97F9-CF3F8A13C46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step547_EF_CodeFirst", "Step547_EF_CodeFirst\Step547_EF_CodeFirst.csproj", "{7EFA400D-61AA-4C07-993F-C85DDA5EBF3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step546_Challenge_PublishToAzure", "Step546_Challenge_PublishToAzure\Step546_Challenge_PublishToAzure.csproj", "{382DD939-1B5A-4180-AE0B-4B0E02337711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{F32552EE-2322-428C-97F9-CF3F8A13C46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32552EE-2322-428C-97F9-CF3F8A13C46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32552EE-2322-428C-97F9-CF3F8A13C46D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EFA400D-61AA-4C07-993F-C85DDA5EBF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EFA400D-61AA-4C07-993F-C85DDA5EBF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EFA400D-61AA-4C07-993F-C85DDA5EBF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EFA400D-61AA-4C07-993F-C85DDA5EBF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382DD939-1B5A-4180-AE0B-4B0E02337711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382DD939-1B5A-4180-AE0B-4B0E02337711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382DD939-1B5A-4180-AE0B-4B0E02337711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382DD939-1B5A-4180-AE0B-4B0E02337711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
